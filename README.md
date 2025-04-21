@@ -30,7 +30,7 @@ npm install
 Create a .env file in the root of the project and add the Mapbox and Mock API keys:
 
 VITE_MAPBOX_TOKEN=pk.eyJ1IjoicmFnaGFkLTI1IiwiYSI6ImNtOWpqY3hycTBjZ2sya3M2em8yeXRmZmEifQ.3l9u-VFEPPydUBzL2285ug
-VITE_API_BASE_URL=http://localhost:4000/cameras
+VITE_API_BASE_URL=http://localhost:4000
 4. Run the mock server
 Start the mock server to serve the camera data.
 
