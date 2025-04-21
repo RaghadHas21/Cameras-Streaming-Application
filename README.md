@@ -25,6 +25,7 @@ cd cameras-streaming-application
 Install the necessary npm packages.
 
 npm install
+
 3. Setup Environment Variables
 Create a .env file in the root of the project and add the Mapbox and Mock API keys:
 
@@ -33,7 +34,7 @@ VITE_API_BASE_URL=http://localhost:4000/cameras
 4. Run the mock server
 Start the mock server to serve the camera data.
 
-npm run mock-server
+npm run start:mock
 This will start a mock server that serves the camera data from http://localhost:4000/cameras.
 
 5. Start the application
